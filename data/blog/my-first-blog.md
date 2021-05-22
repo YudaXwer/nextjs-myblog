@@ -12,9 +12,9 @@ images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.j
 
 ![tailwind-nextjs-banner](/static/images/twitter-card.png)
 
-Halo, jika anda melihat ini berarti saya berhasil membuat blog pertama saya
+Hello everyone, jika kalian melihat tulisan ini berarti saya berhasil membuat blog pertama saya.
 
-Ini adalah blog yang dibuat dengan nextjs dan tailwind. Sebenarnya saya membuat dengan template open-source yang sudah disediakan. Jika anda berminat anda bisa mengunjungi repositori template tersebut
+Ini adalah blog yang dibuat dengan [Nextjs](https://nextjs.org/) dan [Tailwind](https://tailwindcss.com/) lalu dihosting menggunakan [Vercel](http://vercel.com). Sebenarnya saya membuat dengan template open-source yang sudah disediakan. Jika anda berminat anda bisa mengunjungi repositori template tersebut
 https://github.com/timlrx/tailwind-nextjs-starter-blog
 
 Thank You for visiting!

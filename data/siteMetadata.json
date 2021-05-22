@@ -1,8 +1,8 @@
 {
   "title": "MyBlog | syuhendar729",
   "author": "syuhendar729",
-  "headerTitle": "TailwindBlog",
-  "description": "My blog created with Next.js and Tailwind.css",
+  "headerTitle": "MyBlog",
+  "description": "Blog ini dibuat dengan NextJS dan TailwindCSS. Dihosting menggunakan Vercel. Ditulis dengan text editor Visual Studio Code diatas sistem operasi Arch Linux",
   "language": "en-us",
   "siteUrl": "https://syuhendar729-myblog.vercel.app",
   "siteRepo": "https://github.com/syuhendar729/nextjs-myblog",

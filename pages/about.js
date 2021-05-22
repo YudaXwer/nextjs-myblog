@@ -36,9 +36,11 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>--</p>
-            <p>Only ordinary student who want benefit to many people</p>
-            --
-            <p></p>
+            <p>
+              <b>About me</b>
+            </p>
+            <p>Just ordinary people who want benefit to many people</p>
+            <p>--</p>
           </div>
         </div>
       </div>
