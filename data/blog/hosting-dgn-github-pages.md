@@ -1,9 +1,10 @@
 ---
-title: Menghosting website dengan github pages
+title: Menghosting Website di Github Pages
 date: '2021-05-22'
+lastmod: '2021-05-23'
 tags: ['guide', 'github']
 draft: false
-summary: 'Di artikel ini saya menjelaskan bagaimana cara menghosting website statis dengan Github Pages'
+summary: 'Di artikel ini saya menjelaskan bagaimana cara menghosting website statis di Github Pages'
 images: []
 ---
 
@@ -13,6 +14,57 @@ Mungkin dari kalian sudah ada yang mengetahuinya, tapi bagi kalian yang belum ta
 
 Perlu diingat bahwa Github Pages hanya bisa mendukung website statis, sedangkan untuk website dynamic seperti menggunakan bahasa PHP tidak bisa karna PHP berjalan di _**server side**_, sedangkan Github Pages ini berjalan di _**client site**_.
 
-# Langkah 1
+## Langkah 1
 
-~ bersambung ...
+Pastikan kalian sudah memiliki file code website statis yang ingin di-hosting di dalam local komputer kalian. Jika kalian hanya ingin mencoba-coba dan belum memilikinya, kalian bisa membuat file html biasa.
+Misal saya punya file berikut :
+
+```
+index.html
+style.css
+script.js
+```
+
+Lalu satukan dalam 1 folder (nama folder bebas, tapi biasanya saya memberikan nama sesuai dengan nama repo di github-nya)
+
+Oh ya, dan pastikan juga file html diberinama `index.html` karna ketika dihosting file bernama `index` lah yang biasanya secara default ditampilkan.
+
+## Langkah 2
+
+![](/static/images/blog2/img1.png)
+
+Buat repository bernama `username.github.io` di dalam github kalian
+
+Lalu jadikan itu repository public agar semua orang bisa mengakses-nya. Dan skip juga 3 centang _initialize_ di bawah karna repo tersebut akan di-push dari local komputer kalian.
+
+**note** : sesuaikan _username_ dengan username kalian
+
+## Langkah 3
+
+![](/static/images/blog2/img2.png)
+
+Karna repo kalian sudah ada di local komputer, kalian hanya perlu melakukan perintah yang saya kotakin besar saja.
+
+Setelah itu kalian harus memasukkan perintah git tersebut di terminal local komputer kalian.
+Pastikan juga direktori yang kalian _init_ adalah direktori yang ada file website hmtl kalian.
+
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/username/username.github.io.git
+git push -u origin main
+```
+
+**note** : sesuaikan url repository _remote_ dengan yang kalian punya
+
+## Langkah 4
+
+Kalau sudah selesai pada tahap _push_ kalian sudah bisa membuka website kalian di https://username.github.io
+
+**note** : sesuaikan _username_ dengan username kalian
+
+#
+
+Mungkin cukup sekian artikel yang dapat saya sampaikan, jika ada kekurangan mohon dimaafkan. Terima kasih ...
