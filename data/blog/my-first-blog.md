@@ -2,7 +2,7 @@
 title: 'My First Blog'
 date: '2021-05-21'
 lastmod: '2021-05-21'
-tags: ['next-js', 'tailwind', 'guide', 'hello']
+tags: ['hello']
 draft: false
 summary: 'Hanya mencoba membuat blog pertama'
 images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']

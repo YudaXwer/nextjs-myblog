@@ -114,7 +114,7 @@ images (optional, if none provided defaults to socialBanner in siteMetadata conf
 
 Here's an example of a post's frontmatter:
 
-```
+```js
 ---
 title: 'Introducing Tailwind Nexjs Starter Blog'
 date: '2021-01-12'
@@ -134,7 +134,7 @@ The first argument is the name of the post and the second optional argument is t
 
 Example code to generate the post called "My First Post" in markdown format
 
-```
+```bash
 node ./scripts/compose.js "My First Post" .md
 ```
 

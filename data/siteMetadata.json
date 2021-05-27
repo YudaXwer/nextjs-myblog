@@ -1,8 +1,10 @@
 {
   "title": "MyBlog | syuhendar729",
+  "fullname": "Syuhada Rantisi",
   "author": "syuhendar729",
   "headerTitle": "MyBlog",
-  "description": "Blog ini dibuat dengan NextJS dan TailwindCSS. Dihosting menggunakan Vercel. Ditulis dengan text editor Visual Studio Code diatas sistem operasi Arch Linux",
+  "description": "Blog ini dibuat menggunakan NextJS dan TailwindCSS. Dihosting menggunakan Vercel. Ditulis dengan text editor Sublime Text diatas sistem operasi Arch Linux.",
+  "aboutme": "Just ordinary people who want benefit to many people",
   "language": "en-us",
   "siteUrl": "https://syuhendar729-myblog.vercel.app",
   "siteRepo": "https://github.com/syuhendar729/nextjs-myblog",

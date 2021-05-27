@@ -20,7 +20,7 @@ export default function About() {
           <div className="flex flex-col items-center pt-8 space-x-2">
             <img src={siteMetadata.image} alt="avatar" className="w-48 h-48 rounded-full" />
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
-              {siteMetadata.author}
+              {siteMetadata.fullname}
             </h3>
             <div className="text-gray-500 dark:text-gray-400">student of Science major</div>
             <div className="text-gray-500 dark:text-gray-400">MA Husnul Khotimah</div>
@@ -29,7 +29,6 @@ export default function About() {
               <SocialIcon kind="github" href={siteMetadata.github} />
               <SocialIcon kind="instagram" href={siteMetadata.instagram} />
               <SocialIcon kind="telegram" href={siteMetadata.telegram} />
-              {/* <SocialIcon kind="youtube" href={siteMetadata.youtube} /> */}
               <SocialIcon kind="linkedin" href={siteMetadata.linkedin} />
               <SocialIcon kind="twitter" href={siteMetadata.twitter} />
             </div>
@@ -39,7 +38,7 @@ export default function About() {
             <p>
               <b>About me</b>
             </p>
-            <p>Just ordinary people who want benefit to many people</p>
+            <p>{siteMetadata.aboutme}</p>
             <p>--</p>
           </div>
         </div>
