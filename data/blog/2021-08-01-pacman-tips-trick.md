@@ -1,8 +1,8 @@
 ---
-title: 'Tips dan Trik Perintah Pacman (Package Manager Arch Linux)'
+title: 'Tips menggunakan perintah pacman'
 date: '2021-08-01'
 lastmod: '2021-08-01'
-tags: ['guide', 'tips&trik', 'pacman']
+tags: ['guide', 'tips', 'linux']
 draft: false
 summary: 'Di artikel ini saya mendokumentasikan tips dan trik menggunakan perintah pacman'
 images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
